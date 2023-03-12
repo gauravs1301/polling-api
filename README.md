@@ -8,13 +8,15 @@ This is a backend project intended to used at platforms where polling/voting typ
 - Delete Options
 - Add Votes to the options
 
+# Use Postman to run and test following links:
+
 # Important endpoints of the API
-- Create your own questions: http://localhost:{port}/question/create
-- Delete the questions: voteforme-http://localhost:{port}/question/:id/delete
-- Add Options to the questions: http://localhost:{port}/question/:id/options/create
-- View questions along with its options: http://localhost:{port}/question/:id
-- Delete Options: voteforme: http://localhost:{port}/option/:id/delete
-- Add Votes to the options : http://localhost:{port}/option/:id/add_vote
+- Create your own questions: https://polling-api-production.up.railway.app/question/create
+- Delete the questions: voteforme-https://polling-api-production.up.railway.app/question/:id/delete
+- Add Options to the questions: https://polling-api-production.up.railway.app/question/:id/options/create
+- View questions along with its options: https://polling-api-production.up.railway.app/question/:id
+- Delete Options: voteforme: https://polling-api-production.up.railway.app/option/:id/delete
+- Add Votes to the options : https://polling-api-production.up.railway.app/option/:id/add_vote
 
 
 # Tech Stack:
